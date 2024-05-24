@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+body{
+    min-height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff487;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height:90vh;
+    line-height: 200%;
+    font-size: 24px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.fin{
+    background-color: 	#fdeb37;
+    margin: 10px;
+    height: 50%;
+    border: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.fin::-webkit-scrollbar{
+    display: none;
+}
+
+.dnf{
+    background-color: #ffdc09;
+    margin: 10px;
+    height: 50%;
+    border: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.dnf::-webkit-scrollbar{
+    display: none;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.tbr{
+    background-color: 	#f9ac1b;
+    margin: 10px;
+    height: 100%;
+    border: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tbr::-webkit-scrollbar{
+    display: none;
+}
+
+.fin, .dnf, .tbr{
+    margin-top: 0px;
+}
+.title{
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: center;
+    border:solid;
+    border-radius: 6px;
+    border-width: 3px;
+}
+
+ul{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.main li{
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: inherit;
+        color: #50380e;
+        /* font-weight: bold; */
+    }
+    margin-top:72px;
+}
+
